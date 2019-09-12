@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
+   <!-- <parent>
         <groupId>org.jfrog.test</groupId>
         <artifactId>multi</artifactId>
         <version>3.7-SNAPSHOT</version>
-    </parent>
+    </parent>  
 
     <artifactId>multi1</artifactId>
     <packaging>jar</packaging>
-    <name>Multi 1</name>
+    <name>Multi 1</name>  -->
 
+    <groupId>org.jfrog.common</groupId>  
+    <version>version_tag_for_build</version>
+    
+    <artifactId>jfrog-common</artifactId>
+    <packaging>jar</packaging>
+    <name>JFrog common</name>   
+    
+    
     <licenses>
         <license>
             <name>apache</name>
